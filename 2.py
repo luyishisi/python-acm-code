@@ -1,5 +1,9 @@
-n = 10
-sum = 1
-for i in range(1,n+1):
-    sum = i*sum
-    print (i,sum) 
+'''
+给你一个list L, 如 L=[2,8,3,50], 对L进行升序排序并输出,
+如样例L的结果为[2,3,8,50]
+'''
+print(sorted(L))
+'''
+sort和sorted的区别在于
+sort是把序列排序之后返回的值为ｎｏｎｅ
+sorted则式直接返回经过排序的序列。

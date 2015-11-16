@@ -1,3 +1,8 @@
-a,b = et.split(':'),st.split(':')
-c,d = int(a[0]*3600) + int(a[1]*60) +int(a[2]),int(b[0]*3600) + int(b[1]*60) +int(b[2])
-print c-d
+'''
+give you two var a and b, print the value of a+b, just do it!!
+提示：
+挑战python栏目的所有题目，题目中所给变量使用前不用声明，也不用赋值，系统自动赋值。
+如本题，只需一行代码即可： print a + b
+系统会自动为a和b赋值，并检查代码执行结果和标准答案是否相同。
+'''
+print(a+b)
