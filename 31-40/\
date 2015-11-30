@@ -1,0 +1,11 @@
+
+L = [2,-3,3,50]
+s1 = 0
+s = 0
+for i in range(0,len(L)):
+    for j in range(2,int((len(L)+1)/2)):
+        for k in range(0,len(L)+1):
+            s = sum(L[i:k:j])
+            if s > s1:
+                s1 = s
+print (s1)
